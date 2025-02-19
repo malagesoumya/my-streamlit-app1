@@ -1,0 +1,598 @@
+[4D70:4D1C][2025-02-17T18:04:02]i001: Burn v3.14.1.8722, Windows v10.0 (Build 22631: Service Pack 0), path: C:\Users\SOUMYA~1\AppData\Local\Temp\{CF080EBC-4823-40A2-B4A5-7E016F06196B}\.cr\python-3.13.2-amd64 (3).exe
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'ActionLikeInstalling' to value 'Installing'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'ActionLikeInstallation' to value 'Setup'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'ShortVersion' to value '3.13'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'ShortVersionNoDot' to value '313'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'WinVer' to value '3.13'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'WinVerNoDot' to value '313'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'InstallAllUsers' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'InstallLauncherAllUsers' to value '-1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'TargetDir' to value ''
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'DefaultAllUsersTargetDir' to value '[ProgramFiles64Folder]Python[WinVerNoDot]'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'TargetPlatform' to value 'x64'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'DefaultJustForMeTargetDir' to value '[LocalAppDataFolder]Programs\Python\Python[WinVerNoDot]'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'OptionalFeaturesRegistryKey' to value 'Software\Python\PythonCore\[WinVer]\InstalledFeatures'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'TargetDirRegistryKey' to value 'Software\Python\PythonCore\[WinVer]\InstallPath'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'DefaultCustomTargetDir' to value ''
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'InstallAllUsersState' to value 'enabled'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'InstallLauncherAllUsersState' to value 'enabled'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'CustomInstallLauncherAllUsersState' to value '[InstallLauncherAllUsersState]'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'TargetDirState' to value 'enabled'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'CustomBrowseButtonState' to value 'enabled'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_core' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_exe' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_dev' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_lib' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_test' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_doc' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_tools' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_tcltk' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_pip' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_launcher' to value '-1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'Include_launcherState' to value 'enabled'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_symbols' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_debug' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Include_freethreaded' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'Include_freethreadedState' to value 'enabled'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'LauncherOnly' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'BlockedLauncher' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'DetectedLauncher' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'DetectedOldLauncher' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'AssociateFiles' to value '-1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'Shortcuts' to value '1'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'PrependPath' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'AppendPath' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'CompileAll' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing numeric variable 'SimpleInstall' to value '0'
+[4D70:4D1C][2025-02-17T18:04:02]i000: Initializing string variable 'SimpleInstallDescription' to value ''
+[4D70:4D1C][2025-02-17T18:04:03]i009: Command Line: '"-burn.clean.room=C:\Users\Soumya Malage\Downloads\python-3.13.2-amd64 (3).exe" -burn.filehandle.attached=628 -burn.filehandle.self=624'
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\Soumya Malage\Downloads\python-3.13.2-amd64 (3).exe'
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Users\Soumya Malage\Downloads\'
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403.log'
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting string variable 'WixBundleName' to value 'Python 3.13.2 (64-bit)'
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting string variable 'WixBundleManufacturer' to value 'Python Software Foundation'
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting numeric variable 'CRTInstalled' to value 1
+[4D70:1CD8][2025-02-17T18:04:03]i000: Did not find C:\Users\Soumya Malage\Downloads\unattend.xml
+[4D70:1CD8][2025-02-17T18:04:03]i000: Setting string variable 'ActionLikeInstalling' to value 'Installing'
+[4D70:1CD8][2025-02-17T18:04:03]i000: Setting string variable 'ActionLikeInstallation' to value 'Setup'
+[4D70:1CD8][2025-02-17T18:04:03]i000: Setting version variable 'WixBundleFileVersion' to value '3.13.2150.0'
+[4D70:1CD8][2025-02-17T18:04:03]i000: Target OS is Windows 10 or later
+[4D70:4D1C][2025-02-17T18:04:03]i100: Detect begin, 58 packages
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: ucrt_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: ucrt_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: core_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: core_AllUsers_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: core_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: core_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: core_JustForMe_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: core_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: exe_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: exe_AllUsers, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: exe_AllUsers, feature: Shortcuts, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: exe_AllUsers_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: exe_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: exe_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: exe_JustForMe, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: exe_JustForMe, feature: Shortcuts, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: exe_JustForMe_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: exe_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: dev_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: dev_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: dev_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: dev_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: lib_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: lib_AllUsers_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: lib_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: lib_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: lib_JustForMe_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: lib_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: freethreaded_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: freethreaded_AllUsers_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: freethreaded_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: freethreaded_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: freethreaded_JustForMe_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: freethreaded_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: test_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: test_AllUsers_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: test_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: test_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: test_JustForMe_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: test_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: doc_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: doc_AllUsers, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: doc_AllUsers, feature: Shortcuts, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: doc_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: doc_JustForMe, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: doc_JustForMe, feature: Shortcuts, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: tcltk_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_AllUsers, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_AllUsers, feature: AssociateFiles, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_AllUsers, feature: Shortcuts, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: tcltk_AllUsers_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_AllUsers_pdb, feature: Symbols, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: tcltk_AllUsers_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_AllUsers_d, feature: DebugBinaries, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: tcltk_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_JustForMe, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_JustForMe, feature: AssociateFiles, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_JustForMe, feature: Shortcuts, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: tcltk_JustForMe_pdb, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_JustForMe_pdb, feature: Symbols, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: tcltk_JustForMe_d, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: tcltk_JustForMe_d, feature: DebugBinaries, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: launcher_AllUsers, state: Present, cached: Complete
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: launcher_AllUsers, feature: DefaultFeature, state: Local
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: launcher_AllUsers, feature: AssociateFiles, state: Local
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: launcher_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: launcher_JustForMe, feature: DefaultFeature, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i104: Detected package: launcher_JustForMe, feature: AssociateFiles, state: Absent
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: pip_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: pip_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: path_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: path_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: appendpath_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: appendpath_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: compileall_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: compileallO_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: compileallOO_AllUsers, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: compileall_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: compileallO_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i101: Detected package: compileallOO_JustForMe, state: Absent, cached: None
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting numeric variable 'InstallLauncherAllUsers' to value 0
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting numeric variable 'Include_launcher' to value 1
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting numeric variable 'AssociateFiles' to value -1
+[4D70:4D1C][2025-02-17T18:04:03]i000: Setting string variable 'TargetDir' to value 'C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313'
+[4D70:4D1C][2025-02-17T18:04:03]i199: Detect complete, result: 0x0
+[4D70:1CD8][2025-02-17T18:04:03]i052: Condition 'not WixBundleElevated and (InstallAllUsers or (Include_launcher and InstallLauncherAllUsers and not BlockedLauncher))' evaluates to false.
+[4D70:1CD8][2025-02-17T18:04:05]i000: Setting numeric variable 'InstallLauncherAllUsers' to value 0
+[4D70:1CD8][2025-02-17T18:04:05]i000: Setting numeric variable 'PrependPath' to value 0
+[4D70:1CD8][2025-02-17T18:04:05]i000: Setting numeric variable 'CompileAll' to value 0
+[4D70:1CD8][2025-02-17T18:04:05]i000: Setting string variable 'ActionLikeInstalling' to value 'Installing'
+[4D70:1CD8][2025-02-17T18:04:05]i000: Setting string variable 'ActionLikeInstallation' to value 'Setup'
+[4D70:4D1C][2025-02-17T18:04:05]i200: Plan begin, 58 packages, action: Install
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: ucrt_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: core_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: core_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: core_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_core_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_000_core_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_core_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_000_core_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 2 msi features for package: exe_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: exe_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: exe_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: exe_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 2 msi features for package: exe_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_exe_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_001_exe_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_exe_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_001_exe_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_dev and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_dev and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: dev_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: dev_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_dev and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_dev and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_dev_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_002_dev_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_dev_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_002_dev_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_lib and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_lib and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: lib_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: lib_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: lib_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_lib and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_lib and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_lib_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_003_lib_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_lib_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_003_lib_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_freethreaded) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_freethreaded) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: freethreaded_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_freethreaded) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_freethreaded) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: freethreaded_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_freethreaded) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and (Include_freethreaded) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: freethreaded_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_freethreaded) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_freethreaded) and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_freethreaded) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_freethreaded) and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_freethreaded) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and (Include_freethreaded) and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_test and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_test and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: test_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: test_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: test_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_test and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_test and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_test_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_004_test_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_test_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_004_test_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_doc and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_doc and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 2 msi features for package: doc_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: doc_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_doc and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_doc and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 2 msi features for package: doc_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_doc_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_005_doc_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_doc_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_005_doc_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 3 msi features for package: tcltk_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: AssociateFiles, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: tcltk_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 1 msi features for package: tcltk_AllUsers_pdb
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Symbols, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: tcltk_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 1 msi features for package: tcltk_AllUsers_d
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DebugBinaries, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: tcltk_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 3 msi features for package: tcltk_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: AssociateFiles, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_tcltk_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_006_tcltk_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_tcltk_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_006_tcltk_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 1 msi features for package: tcltk_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: Symbols, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 1 msi features for package: tcltk_JustForMe_d
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DebugBinaries, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition '(InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not BlockedLauncher' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition '(InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not BlockedLauncher' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 2 msi features for package: launcher_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: AssociateFiles, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: launcher_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not (InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not BlockedLauncher' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not (InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not BlockedLauncher' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i204: Plan 2 msi features for package: launcher_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i203: Planned feature: AssociateFiles, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_launcher_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_007_launcher_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_pip and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and Include_pip and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: pip_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_pip and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and Include_pip and not LauncherOnly' evaluates to true.
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleRollbackLog_pip_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_008_pip_JustForMe_rollback.log'
+[4D70:4D1C][2025-02-17T18:04:05]i000: Setting string variable 'WixBundleLog_pip_JustForMe' to value 'C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_008_pip_JustForMe.log'
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: path_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w322: Skipping cross-scope dependency registration on package: appendpath_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w321: Skipping dependency registration on package with no dependency providers: compileall_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w321: Skipping dependency registration on package with no dependency providers: compileallO_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w321: Skipping dependency registration on package with no dependency providers: compileallOO_AllUsers
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w321: Skipping dependency registration on package with no dependency providers: compileall_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w321: Skipping dependency registration on package with no dependency providers: compileallO_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[4D70:4D1C][2025-02-17T18:04:05]w321: Skipping dependency registration on package with no dependency providers: compileallOO_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: ucrt_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: ucrt_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: core_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: core_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: core_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: core_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: core_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: core_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: exe_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: exe_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: exe_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: exe_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: exe_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: exe_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: dev_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: dev_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: dev_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: dev_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: lib_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: lib_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: lib_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: lib_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: lib_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: lib_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: freethreaded_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: freethreaded_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: freethreaded_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: freethreaded_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: freethreaded_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: freethreaded_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: test_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: test_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: test_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: test_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: test_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: test_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: doc_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: doc_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: tcltk_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: tcltk_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: tcltk_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: tcltk_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: tcltk_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: tcltk_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: launcher_AllUsers, state: Present, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: launcher_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: None, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: pip_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: pip_JustForMe, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: path_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: path_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: appendpath_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: appendpath_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: compileall_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: compileallO_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: compileallOO_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: compileall_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: compileallO_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i201: Planned package: compileallOO_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[4D70:4D1C][2025-02-17T18:04:05]i299: Plan complete, result: 0x0
+[4D70:4D1C][2025-02-17T18:04:05]i300: Apply begin
+[4D70:4D1C][2025-02-17T18:04:05]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2f6912bf-a96d-496e-9d97-7d9b771df28d}, options: 0x7, disable resume: No
+[4D70:4D1C][2025-02-17T18:04:05]i000: Caching bundle from: 'C:\Users\SOUMYA~1\AppData\Local\Temp\{3DE94060-FF23-4A5C-8A81-5C23170DF309}\.be\python-3.13.2-amd64.exe' to: 'C:\Users\Soumya Malage\AppData\Local\Package Cache\{2f6912bf-a96d-496e-9d97-7d9b771df28d}\python-3.13.2-amd64.exe'
+[4D70:4D1C][2025-02-17T18:04:05]i320: Registering bundle dependency provider: CPython-3.13, version: 3.13.2150.0
+[4D70:4D1C][2025-02-17T18:04:05]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2f6912bf-a96d-496e-9d97-7d9b771df28d}, resume: Active, restart initiated: No, disable resume: No
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: core_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\core_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{6B2067F5-FABB-4E5D-9769-ACF1886A7281}v3.13.2150.0\core.msi.
+[4D70:4D1C][2025-02-17T18:04:05]i323: Registering package dependency provider: {6B2067F5-FABB-4E5D-9769-ACF1886A7281}, version: 3.13.2150.0, package: core_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i301: Applying execute package: core_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{6B2067F5-FABB-4E5D-9769-ACF1886A7281}v3.13.2150.0\core.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: exe_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\exe_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{5EEECB0A-2BEA-4A17-8F52-33853A198059}v3.13.2150.0\exe.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: dev_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\dev_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}v3.13.2150.0\dev.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: lib_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\lib_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{89609059-34FF-4C34-8D70-2FF7FA4B2490}v3.13.2150.0\lib.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: test_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\test_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{E77A600D-F93D-4182-A270-FFBEC7D476B9}v3.13.2150.0\test.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: doc_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\doc_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{78405CCF-67BD-4630-ADE2-ADB5D09AC347}v3.13.2150.0\doc.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: tcltk_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\tcltk_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{A8BA555F-4CCF-4B73-8205-C9529D178E57}v3.13.2150.0\tcltk.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: launcher_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\launcher_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{C7213DDA-56FA-4C9E-BA0C-1C907366F456}v3.13.2150.0\launcher.msi.
+[4D70:524C][2025-02-17T18:04:05]i305: Verified acquired payload: pip_JustForMe at path: C:\Users\Soumya Malage\AppData\Local\Package Cache\.unverified\pip_JustForMe, moving to: C:\Users\Soumya Malage\AppData\Local\Package Cache\{5E8E4228-121B-49EA-9CC2-B8E3CBED5080}v3.13.2150.0\pip.msi.
+[4D70:4D1C][2025-02-17T18:04:05]i319: Applied execute package: core_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:05]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {6B2067F5-FABB-4E5D-9769-ACF1886A7281}, package: core_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i323: Registering package dependency provider: {5EEECB0A-2BEA-4A17-8F52-33853A198059}, version: 3.13.2150.0, package: exe_JustForMe
+[4D70:4D1C][2025-02-17T18:04:05]i301: Applying execute package: exe_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{5EEECB0A-2BEA-4A17-8F52-33853A198059}v3.13.2150.0\exe.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures" ADDLOCAL="DefaultFeature,Shortcuts"'
+[4D70:4D1C][2025-02-17T18:04:06]i319: Applied execute package: exe_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:06]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {5EEECB0A-2BEA-4A17-8F52-33853A198059}, package: exe_JustForMe
+[4D70:4D1C][2025-02-17T18:04:06]i323: Registering package dependency provider: {7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}, version: 3.13.2150.0, package: dev_JustForMe
+[4D70:4D1C][2025-02-17T18:04:06]i301: Applying execute package: dev_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}v3.13.2150.0\dev.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:04:08]i319: Applied execute package: dev_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:08]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}, package: dev_JustForMe
+[4D70:4D1C][2025-02-17T18:04:08]i323: Registering package dependency provider: {89609059-34FF-4C34-8D70-2FF7FA4B2490}, version: 3.13.2150.0, package: lib_JustForMe
+[4D70:4D1C][2025-02-17T18:04:08]i301: Applying execute package: lib_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{89609059-34FF-4C34-8D70-2FF7FA4B2490}v3.13.2150.0\lib.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:04:12]i319: Applied execute package: lib_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:12]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {89609059-34FF-4C34-8D70-2FF7FA4B2490}, package: lib_JustForMe
+[4D70:4D1C][2025-02-17T18:04:12]i323: Registering package dependency provider: {E77A600D-F93D-4182-A270-FFBEC7D476B9}, version: 3.13.2150.0, package: test_JustForMe
+[4D70:4D1C][2025-02-17T18:04:12]i301: Applying execute package: test_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{E77A600D-F93D-4182-A270-FFBEC7D476B9}v3.13.2150.0\test.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:04:20]i319: Applied execute package: test_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:20]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {E77A600D-F93D-4182-A270-FFBEC7D476B9}, package: test_JustForMe
+[4D70:4D1C][2025-02-17T18:04:20]i323: Registering package dependency provider: {78405CCF-67BD-4630-ADE2-ADB5D09AC347}, version: 3.13.2150.0, package: doc_JustForMe
+[4D70:4D1C][2025-02-17T18:04:20]i301: Applying execute package: doc_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{78405CCF-67BD-4630-ADE2-ADB5D09AC347}v3.13.2150.0\doc.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures" ADDLOCAL="DefaultFeature,Shortcuts"'
+[4D70:4D1C][2025-02-17T18:04:24]i319: Applied execute package: doc_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:24]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {78405CCF-67BD-4630-ADE2-ADB5D09AC347}, package: doc_JustForMe
+[4D70:4D1C][2025-02-17T18:04:24]i323: Registering package dependency provider: {A8BA555F-4CCF-4B73-8205-C9529D178E57}, version: 3.13.2150.0, package: tcltk_JustForMe
+[4D70:4D1C][2025-02-17T18:04:24]i301: Applying execute package: tcltk_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{A8BA555F-4CCF-4B73-8205-C9529D178E57}v3.13.2150.0\tcltk.msi, arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures" ADDLOCAL="DefaultFeature,AssociateFiles,Shortcuts"'
+[4D70:4D1C][2025-02-17T18:04:30]i319: Applied execute package: tcltk_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:30]i325: Registering dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {A8BA555F-4CCF-4B73-8205-C9529D178E57}, package: tcltk_JustForMe
+[4D70:4D1C][2025-02-17T18:04:30]i323: Registering package dependency provider: {C7213DDA-56FA-4C9E-BA0C-1C907366F456}, version: 3.13.2150.0, package: launcher_JustForMe
+[4D70:4D1C][2025-02-17T18:04:30]i301: Applying execute package: launcher_JustForMe, action: Install, path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{C7213DDA-56FA-4C9E-BA0C-1C907366F456}v3.13.2150.0\launcher.msi, arguments: ' MSIFASTINSTALL="7" ADDLOCAL="DefaultFeature,AssociateFiles"'
+[4D70:4D1C][2025-02-17T18:04:30]e000: Error 0x80070659: Failed to install MSI package.
+[4D70:4D1C][2025-02-17T18:04:30]e000: Error 0x80070659: Failed to configure per-user MSI package.
+[4D70:4D1C][2025-02-17T18:04:30]i319: Applied execute package: launcher_JustForMe, result: 0x80070659, restart: None
+[4D70:4D1C][2025-02-17T18:04:30]e000: Error 0x80070659: Failed to execute MSI package.
+[4D70:4D1C][2025-02-17T18:04:30]i329: Removed package dependency provider: {C7213DDA-56FA-4C9E-BA0C-1C907366F456}, package: launcher_JustForMe
+[4D70:4D1C][2025-02-17T18:04:30]i351: Removing cached package: launcher_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{C7213DDA-56FA-4C9E-BA0C-1C907366F456}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:04:30]i329: Removed package dependency provider: {EE06FCB4-F354-4C98-82DF-44E51E7C03C5}, package: tcltk_JustForMe_d
+[4D70:4D1C][2025-02-17T18:04:30]i329: Removed package dependency provider: {9642B200-716C-4087-B0A5-E7BF90400358}, package: tcltk_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:04:30]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {A8BA555F-4CCF-4B73-8205-C9529D178E57}, package tcltk_JustForMe
+[4D70:4D1C][2025-02-17T18:04:30]i301: Applying rollback package: tcltk_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures" REMOVE="DefaultFeature,AssociateFiles,Shortcuts"'
+[4D70:4D1C][2025-02-17T18:04:41]i319: Applied rollback package: tcltk_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:41]i329: Removed package dependency provider: {A8BA555F-4CCF-4B73-8205-C9529D178E57}, package: tcltk_JustForMe
+[4D70:4D1C][2025-02-17T18:04:41]i351: Removing cached package: tcltk_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{A8BA555F-4CCF-4B73-8205-C9529D178E57}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:04:41]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {78405CCF-67BD-4630-ADE2-ADB5D09AC347}, package doc_JustForMe
+[4D70:4D1C][2025-02-17T18:04:41]i301: Applying rollback package: doc_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures" REMOVE="DefaultFeature,Shortcuts"'
+[4D70:4D1C][2025-02-17T18:04:47]i319: Applied rollback package: doc_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:04:47]i329: Removed package dependency provider: {78405CCF-67BD-4630-ADE2-ADB5D09AC347}, package: doc_JustForMe
+[4D70:4D1C][2025-02-17T18:04:47]i351: Removing cached package: doc_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{78405CCF-67BD-4630-ADE2-ADB5D09AC347}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:04:47]i329: Removed package dependency provider: {22149CB7-85E3-4CD9-A4C1-C5A3D46558B3}, package: test_JustForMe_d
+[4D70:4D1C][2025-02-17T18:04:47]i329: Removed package dependency provider: {4AE46CFB-49AC-4835-A768-5C89DB97F2E5}, package: test_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:04:47]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {E77A600D-F93D-4182-A270-FFBEC7D476B9}, package test_JustForMe
+[4D70:4D1C][2025-02-17T18:04:47]i301: Applying rollback package: test_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:05:01]i319: Applied rollback package: test_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:05:01]i329: Removed package dependency provider: {E77A600D-F93D-4182-A270-FFBEC7D476B9}, package: test_JustForMe
+[4D70:4D1C][2025-02-17T18:05:01]i351: Removing cached package: test_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{E77A600D-F93D-4182-A270-FFBEC7D476B9}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:05:01]i329: Removed package dependency provider: {2F29B771-D84C-484C-8816-965ADC59A024}, package: freethreaded_JustForMe_d
+[4D70:4D1C][2025-02-17T18:05:01]i329: Removed package dependency provider: {41E90B65-B58D-48C4-89A4-0DD16BD344E4}, package: freethreaded_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:05:01]i329: Removed package dependency provider: {FAFFE008-3A25-4DBB-8594-2763FE3E2DA6}, package: freethreaded_JustForMe
+[4D70:4D1C][2025-02-17T18:05:01]i329: Removed package dependency provider: {91471366-D8FE-461E-B7F5-2D31EF0B4927}, package: lib_JustForMe_d
+[4D70:4D1C][2025-02-17T18:05:01]i329: Removed package dependency provider: {007C3FF2-E46E-41B4-A87F-F67D56A22E92}, package: lib_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:05:01]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {89609059-34FF-4C34-8D70-2FF7FA4B2490}, package lib_JustForMe
+[4D70:4D1C][2025-02-17T18:05:01]i301: Applying rollback package: lib_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:05:06]i319: Applied rollback package: lib_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:05:06]i329: Removed package dependency provider: {89609059-34FF-4C34-8D70-2FF7FA4B2490}, package: lib_JustForMe
+[4D70:4D1C][2025-02-17T18:05:06]i351: Removing cached package: lib_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{89609059-34FF-4C34-8D70-2FF7FA4B2490}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:05:06]i329: Removed package dependency provider: {30FD68F4-6121-4C08-A37F-E2DB9A11BEEB}, package: dev_JustForMe_d
+[4D70:4D1C][2025-02-17T18:05:06]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}, package dev_JustForMe
+[4D70:4D1C][2025-02-17T18:05:06]i301: Applying rollback package: dev_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:05:09]i319: Applied rollback package: dev_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}, package: dev_JustForMe
+[4D70:4D1C][2025-02-17T18:05:09]i351: Removing cached package: dev_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{7864E49A-A67D-4FA4-A3A6-E5049FCBBBF0}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {250498D4-EDA5-4A4F-BEE2-B6DD444A200D}, package: exe_JustForMe_d
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {1CA94077-B47B-4FF4-B400-1E5022B59320}, package: exe_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:05:09]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {5EEECB0A-2BEA-4A17-8F52-33853A198059}, package exe_JustForMe
+[4D70:4D1C][2025-02-17T18:05:09]i301: Applying rollback package: exe_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures" REMOVE="DefaultFeature,Shortcuts"'
+[4D70:4D1C][2025-02-17T18:05:09]i319: Applied rollback package: exe_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {5EEECB0A-2BEA-4A17-8F52-33853A198059}, package: exe_JustForMe
+[4D70:4D1C][2025-02-17T18:05:09]i351: Removing cached package: exe_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{5EEECB0A-2BEA-4A17-8F52-33853A198059}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {8EF187B4-936F-4413-BA29-F496F13C1DA6}, package: core_JustForMe_d
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {38344DA9-1727-4E75-B495-BA07561BF442}, package: core_JustForMe_pdb
+[4D70:4D1C][2025-02-17T18:05:09]i326: Removed dependency: {2f6912bf-a96d-496e-9d97-7d9b771df28d} on package provider: {6B2067F5-FABB-4E5D-9769-ACF1886A7281}, package core_JustForMe
+[4D70:4D1C][2025-02-17T18:05:09]i301: Applying rollback package: core_JustForMe, action: Uninstall, path: (null), arguments: ' ARPSYSTEMCOMPONENT="1" MSIFASTINSTALL="7" TARGETDIR="C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313" OPTIONALFEATURESREGISTRYKEY="Software\Python\PythonCore\3.13\InstalledFeatures"'
+[4D70:4D1C][2025-02-17T18:05:09]i319: Applied rollback package: core_JustForMe, result: 0x0, restart: None
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {6B2067F5-FABB-4E5D-9769-ACF1886A7281}, package: core_JustForMe
+[4D70:4D1C][2025-02-17T18:05:09]i351: Removing cached package: core_JustForMe, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{6B2067F5-FABB-4E5D-9769-ACF1886A7281}v3.13.2150.0\
+[4D70:4D1C][2025-02-17T18:05:09]i329: Removed package dependency provider: {DB8F3679-7E68-4C78-AD50-C8CEC4830777}, package: ucrt_JustForMe
+[4D70:4D1C][2025-02-17T18:05:09]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2f6912bf-a96d-496e-9d97-7d9b771df28d}, resume: None, restart: None, disable resume: No
+[4D70:4D1C][2025-02-17T18:05:09]i330: Removed bundle dependency provider: CPython-3.13
+[4D70:4D1C][2025-02-17T18:05:09]i352: Removing cached bundle: {2f6912bf-a96d-496e-9d97-7d9b771df28d}, from path: C:\Users\Soumya Malage\AppData\Local\Package Cache\{2f6912bf-a96d-496e-9d97-7d9b771df28d}\
+[4D70:4D1C][2025-02-17T18:05:09]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2f6912bf-a96d-496e-9d97-7d9b771df28d}, resume: None, restart initiated: No, disable resume: No
+[4D70:4D1C][2025-02-17T18:05:09]i399: Apply complete, result: 0x80070659, restart: None, ba requested restart:  No
+[4D70:4D1C][2025-02-17T18:05:40]i500: Shutting down, exit code: 0x659
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: ActionLikeInstallation = Setup
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: ActionLikeInstalling = Installing
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: AppendPath = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: AssociateFiles = -1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: BlockedLauncher = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: CompileAll = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: CRTInstalled = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: CustomBrowseButtonState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: CustomInstallLauncherAllUsersState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: DefaultAllUsersTargetDir = C:\Program Files\Python313
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: DefaultCustomTargetDir = 
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: DefaultJustForMeTargetDir = C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: DetectedLauncher = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: DetectedOldLauncher = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_core = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_debug = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_dev = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_doc = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_exe = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_freethreaded = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_freethreadedState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_launcher = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_launcherState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_lib = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_pip = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_symbols = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_tcltk = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_test = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Include_tools = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: InstallAllUsers = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: InstallAllUsersState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: InstallLauncherAllUsers = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: InstallLauncherAllUsersState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: LauncherOnly = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: LocalAppDataFolder = C:\Users\Soumya Malage\AppData\Local\
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: OptionalFeaturesRegistryKey = Software\Python\PythonCore\3.13\InstalledFeatures
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: PrependPath = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: ProgramFiles64Folder = C:\Program Files\
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: Shortcuts = 1
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: ShortVersion = 3.13
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: ShortVersionNoDot = 313
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: SimpleInstall = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: SimpleInstallDescription = 
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: TargetDir = C:\Users\Soumya Malage\AppData\Local\Programs\Python\Python313
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: TargetDirRegistryKey = Software\Python\PythonCore\3.13\InstallPath
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: TargetDirState = enabled
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: TargetPlatform = x64
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WinVer = 3.13
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WinVerNoDot = 313
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleAction = 5
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleElevated = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleFileVersion = 3.13.2150.0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleInstalled = 0
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_core_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_000_core_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_dev_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_002_dev_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_doc_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_005_doc_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_exe_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_001_exe_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_launcher_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_007_launcher_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_lib_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_003_lib_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_pip_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_008_pip_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_tcltk_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_006_tcltk_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleLog_test_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_004_test_JustForMe.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleManufacturer = Python Software Foundation
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleName = Python 3.13.2 (64-bit)
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleOriginalSource = C:\Users\Soumya Malage\Downloads\python-3.13.2-amd64 (3).exe
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleOriginalSourceFolder = C:\Users\Soumya Malage\Downloads\
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleProviderKey = CPython-3.13
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_core_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_000_core_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_dev_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_002_dev_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_doc_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_005_doc_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_exe_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_001_exe_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_lib_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_003_lib_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_pip_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_008_pip_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_tcltk_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_006_tcltk_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleRollbackLog_test_JustForMe = C:\Users\SOUMYA~1\AppData\Local\Temp\Python 3.13.2 (64-bit)_20250217180403_004_test_JustForMe_rollback.log
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleSourceProcessFolder = C:\Users\Soumya Malage\Downloads\
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleSourceProcessPath = C:\Users\Soumya Malage\Downloads\python-3.13.2-amd64 (3).exe
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleTag = 
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleUILevel = 4
+[4D70:4D1C][2025-02-17T18:05:40]i410: Variable: WixBundleVersion = 3.13.2150.0
+[4D70:4D1C][2025-02-17T18:05:40]i007: Exit code: 0x659, restarting: No
